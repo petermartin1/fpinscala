@@ -1,4 +1,4 @@
-package fpinscalla.datastructures
+package fpinscala.datastructures
 
 sealed trait List[+A]
 
@@ -46,5 +46,11 @@ object List {
     case Cons(h, Nil) => Nil
     case Cons(h, t) => Cons(h, init(t))
   }
-  def foldRight[A,B](l: List[A], z: B)(f: (A, B) => B): B =
+  def foldRight[A,B](l: List[A], z: B)(f: (A, B) => B): B = l match {
+    case Nil => z
+    case Cons(h, t) => f(h, foldRight(t, z)(f))
+
+  }
+  def length[A](l: List[A]): Int = foldRight(l, 0)((_, acc) => acc + 1)
+
 }

@@ -1,0 +1,49 @@
+[debug] Full compilation, no sources in previous analysis.
+[debug] All sources are invalidated.
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /home/peter/scalaworkspace/fpinscala/target/scala-2.12/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.6. Compiling...
+[debug] Creating plain compiler interface for 2.12.6.
+[debug]   > Arguments: 
+[debug] 	-nowarn
+[debug] 	-d
+[debug] 	/tmp/sbt_b3bac8e0
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/classes:/home/peter/.sbt/boot/scala-2.12.6/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/tmp/sbt_edb72f97/jars/org.scala-sbt/compiler-interface/compiler-interface-1.2.1.jar:/tmp/sbt_edb72f97/jars/org.scala-sbt/util-interface/util-interface-1.2.0.jar:/tmp/sbt_edb72f97/srcs/org.scala-sbt/compiler-bridge_2.12/compiler-bridge_2.12-1.2.1-sources.jar:/home/peter/.sbt/boot/scala-2.12.6/lib/scala-compiler.jar:/home/peter/.sbt/boot/scala-2.12.6/lib/jline.jar:/home/peter/.sbt/boot/scala-2.12.6/lib/scala-xml_2.12.jar:/home/peter/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar
+[debug] 	/tmp/sbt_379cea8c/xsbt/API.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/Analyzer.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/CallbackGlobal.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/ClassName.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/Command.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/Compat.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/CompilerInterface.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/ConsoleInterface.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/DelegatingReporter.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/Dependency.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/ExtractAPI.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/ExtractUsedNames.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/GlobalHelpers.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/InteractiveConsoleFactory.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/InteractiveConsoleHelper.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/InteractiveConsoleInterface.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/InteractiveConsoleResponse.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/JavaUtils.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/LocalToNonLocalClass.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/LocateClassFile.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/Log.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/Message.scala
+[debug] 	/tmp/sbt_379cea8c/xsbt/ScaladocInterface.scala
+[debug]       
+[info]   Compilation completed in 4.867s.
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6
+[debug] [zinc] Running cached compiler 737ba791 for Scala compiler version 2.12.6
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-11.fc29.x86_64/jre/classes:/home/peter/.sbt/boot/scala-2.12.6/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/peter/scalaworkspace/fpinscala/target/scala-2.12/classes
+[debug] Scala compilation took 5.874590108 s
+[info] Done compiling.
